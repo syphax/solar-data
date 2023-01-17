@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Command line utility to replace specific text in a file
+# Used to remove PID from raw solar files
+
 if [ $# -ne 2 ]; then
   echo "Usage: replace_text.sh old_text new_text"
   exit 1
