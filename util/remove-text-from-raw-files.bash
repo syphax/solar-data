@@ -4,7 +4,7 @@
 # Used to remove PID from raw solar files
 
 if [ $# -ne 2 ]; then
-  echo "Usage: replace_text.sh old_text new_text"
+  echo "Usage: remove-text-from-raw-files.bash old_text new_text"
   exit 1
 fi
 
